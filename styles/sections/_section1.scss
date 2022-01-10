@@ -1,0 +1,38 @@
+.section-1{
+    background-image: url(../../assets/images/section-1/background-img.png);
+    width: 100%;
+    height: 713px;
+
+    img{
+        position: absolute;
+        height: 713px;
+        width: 100%;
+        z-index: -1;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+
+        padding: {
+            top: 57px;
+            left: 200px;
+            right: 319px;
+        };
+
+        h2{
+            font-size: 45px;
+            color: #fff;
+
+            span{
+                color: #FE724C;
+            }
+        }
+        .menu{
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+        
+    }
+} 
